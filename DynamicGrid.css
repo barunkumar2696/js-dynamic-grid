@@ -40,3 +40,15 @@ h2{
 .div2{
   margin-left: 50px;
 }
+@media screen and (max-width:400px) {
+  #cloathing{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    justify-content: space-between;
+  }
+  #assesories{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    justify-content: space-between;
+  }
+}
